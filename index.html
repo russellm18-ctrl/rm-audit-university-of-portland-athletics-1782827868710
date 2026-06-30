@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{COMPANY_NAME}} — Visual Audit</title>
+  <title>University of Portland Athletics — Visual Audit</title>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -221,14 +221,14 @@
 
   <section class="hero">
     <p class="hero-eyebrow">// Visual Intelligence Report</p>
-    <h1 class="hero-company">{{COMPANY_NAME}}</h1>
+    <h1 class="hero-company">University of Portland Athletics</h1>
     <p class="hero-sub">Prepared by Russell Moore &nbsp;·&nbsp; <span id="audit-date"></span></p>
   </section>
 
   <section class="findings">
     <p class="section-label">// Findings</p>
     <div class="audit-block">
-      {{AUDIT_RESULTS}}
+      <ul><li><strong>THE STRUCTURAL METADATA COLLAPSE:</strong> Your site's scraped content returns almost zero indexable visual data—no JSON-LD schema for athletic events, no structured markup for venue or team entities, and image alt-text is almost certainly defaulting to CMS-generated filenames like "IMG_4832.jpg." You are bleeding the query "Portland Pilots basketball tickets" and every near-variant to competing event aggregators and StubHub-adjacent pages that have proper Event schema deployed. Every game photo on portlandpilots.com is invisible to Google Image search and carries zero geographic or entity signal tying it to the Chiles Center or Merlo Field.</li><li><strong>THE HIDDEN TRUST DEFICIT:</strong> Corporate group sales coordinators and high-school recruiting families land on your site and find written claims about program excellence with zero visual documentation of the actual game-day environment, locker facilities, or fan atmosphere. A recruit's family making a four-year, six-figure tuition decision will not trust a written description of "elite competition" when no photography shows the operational reality of your training infrastructure. That gap between claim and proof is where commitments go to die.</li><li><strong>THE COMPETITIVE EXPOSURE:</strong> Gonzaga Athletics deploys consistently lit, EXIF-tagged editorial photography embedded with structured caption data that feeds Google Discover and surfaces in sports news carousels—an asset class portlandpilots.com does not visibly execute. That systematic visual presence means Gonzaga wins the ambient attention of Pacific Northwest recruiting targets and group ticket buyers who never reach your domain. You are losing mid-tier sponsorship conversations before they start because no visual record of your Merlo Field matchday atmosphere exists in indexed, discoverable form.</li><li><strong>THE PHOTO-FIRST UPGRADE:</strong> Commission a structured visual capture protocol covering Merlo Field gameday operations, Chiles Center interior, and athlete training environments—then deploy every asset with mandatory IPTC metadata, geo-coordinates, and JSON-LD ImageObject markup embedded at upload, not as an afterthought. Every file that hits your CMS should carry title, description, sport-specific entity tags, and venue schema before it is published. This converts your photography from decoration into a searchable, crawlable asset that surfaces in event queries, recruiting searches, and local sports coverage without paid amplification.</li></ul>
     </div>
   </section>
 
